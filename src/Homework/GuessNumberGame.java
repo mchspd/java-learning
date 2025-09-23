@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class GuessNumberGame {
     public static void main(String[] args) {
 
-        System.out.println("<=========================>");
+        System.out.println("<===========================>");
         System.out.println("Let's go! Try to guess my number");
 
         int number = new Random().nextInt(1, 101);
