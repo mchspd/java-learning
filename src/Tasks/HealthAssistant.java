@@ -1,4 +1,4 @@
-package JavaBasic;
+package Tasks;
 
 public class HealthAssistant {
     public static void main(String[] args) {
