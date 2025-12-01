@@ -9,7 +9,7 @@ public class DailyAssistant {
         String name = input.nextLine();
         System.out.println("Type your age: ");
         int age = input.nextInt();
-        System.out.println("Type day number: ");
+        System.out.println("Type day of week number: ");
         int day = input.nextInt();
 
         while (day < 1 || day > 7) {
