@@ -9,7 +9,7 @@ public class VerySimpleCalc {
         double productPrice = scanner.nextDouble();
         System.out.println("Give ammount of discount(%): ");
         int discountPercent = scanner.nextInt();
-        double priceAfterDiscount = productPrice - (productPrice * (discountPercent / 100));
+        double priceAfterDiscount = productPrice - (productPrice * discountPercent / 100);
         System.out.println("Price after discount: " + priceAfterDiscount);
         scanner.close();
 
